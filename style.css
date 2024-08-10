@@ -1,0 +1,46 @@
+body
+{
+    background: rgb(158, 158, 158);
+}
+
+#header
+{
+    display: flex;
+    justify-content: center;
+}
+
+#sizeButton
+{
+    height: 50px;
+    width: 200px;
+    margin: 5px;
+    font-size: 22px;
+    border-radius: 10px;
+    background-color: rgb(204, 200, 200);
+}
+
+#fullContainer
+{
+    height: 780px;
+    width: 780px;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: stretch;
+    border: 1px solid black;
+    margin: 5px auto;
+}
+
+.row
+{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    /*border: 1px solid black;*/
+}
+
+.slot
+{
+    flex: 1;
+    /*border: 1px solid black;*/
+}
